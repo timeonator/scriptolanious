@@ -1,0 +1,1 @@
+function myFunkyFunction () { return 0; }
