@@ -1,33 +1,49 @@
-/* Coolors Exported Palette - coolors.co/103b60-1c6fa3-453f78-66717e-119da4 */
+/* Coolors Exported Palette - coolors.co/1d4066-7b8954-536a50-682342-d2d2de */
 
 /* HSL */
-$color1: hsla(208%, 71%, 22%, 1);
-$color2: hsla(203%, 71%, 37%, 1);
-$color3: hsla(246%, 31%, 36%, 1);
-$color4: hsla(213%, 11%, 45%, 1);
-$color5: hsla(183%, 81%, 35%, 1);
+$color1: hsla(211%, 56%, 26%, 1);
+$color2: hsla(76%, 24%, 43%, 1);
+$color3: hsla(113%, 14%, 36%, 1);
+$color4: hsla(333%, 50%, 27%, 1);
+$color5: hsla(240%, 15%, 85%, 1);
 
 /* RGB */
-$darkMidnightBlue: rgba(16, 59, 96, 1);
-$lapisLazuli: rgba(28, 111, 163, 1);
-$darkStateBlue: rgba(69, 63, 120, 1);
-$aurometalsaurus: rgba(102, 113, 126, 1);
-$blueGreen: rgba(17, 157, 164, 1);
+$color1: rgba(29, 64, 102, 1);
+$color2: rgba(123, 137, 84, 1);
+$color3: rgba(83, 106, 80, 1);
+$color4: rgba(104, 35, 66, 1);
+$color5: rgba(210, 210, 222, 1);
 
-$header-bgcolor: $darkMidnightBlue;
-$footer-bgcolor: $darkMidnightBlue;
-$content-bgcolor: $blueGreen;
+$header-bgcolor: $color4;
+$nav-bgcolor: $color5;
+$content-bgcolor: $color5;
+$footer-bgcolor: $color4;
 
+.element {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
 div {
     width: 100%;
+    margin: 0 0 0 0;
+
 }
 #header {
     background-color: $header-bgcolor;
-    height: 200px;
+    height: 100px;
 }
 #navigation {
-    background-color: $lapisLazuli;
+    background-color: $nav-bgcolor;
 }
+
+#navigation ul li {
+    display: inline-block;
+}
+#navigation ul li a {
+    margin: 0 20 0 20;
+    color: white;
+}
+
 .content {
     background-color: $content-bgcolor;
 }

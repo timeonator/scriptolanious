@@ -1,10 +1,39 @@
-/* Coolors Exported Palette - coolors.co/103b60-1c6fa3-453f78-66717e-119da4 */
+/* Coolors Exported Palette - coolors.co/1d4066-7b8954-536a50-682342-d2d2de */
 /* HSL */
 /* RGB */
-div #header {
-  background-color: #103b60; }
+.element {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
 
-div #footer {
-  background-color: #103b60; }
+div {
+  width: 100%;
+  margin: 0 0 0 0;
+}
 
+#header {
+  background-color: #682342;
+  height: 100px;
+}
+
+#navigation {
+  background-color: #d2d2de;
+}
+
+#navigation ul li {
+  display: inline-block;
+}
+
+#navigation ul li a {
+  margin: 0 20 0 20;
+  color: white;
+}
+
+.content {
+  background-color: #d2d2de;
+}
+
+#footer {
+  background-color: #682342;
+}
 /*# sourceMappingURL=theme.css.map */
