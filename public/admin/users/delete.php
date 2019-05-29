@@ -7,7 +7,6 @@ if(!isset($_GET['user_id'])) {
 }
 $user_id = $_GET['user_id'];
 if(is_post_request()) {
-  var_dump($_GET);
   $result = delete_user($user_id);
   $_SESSION['message'] =  "Admin deleted successfully.";
   redirect_to(url_for('/admin/users/index.php'));

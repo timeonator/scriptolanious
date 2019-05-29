@@ -25,6 +25,7 @@
   require_once('functions.php');
   require_once('database.php');
   require_once('user_queries.php');
+  require_once('subject_queries.php');
   // require_once('query_functions.php');
   require_once('validation_functions.php');
   require_once('user_auth_functions.php');
