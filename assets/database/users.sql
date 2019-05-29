@@ -1,3 +1,7 @@
+create database quest;
+use quest;
+grant all privileges on quest.* to 'smarty'@'localhost' identified by 'epiq20day'
+
 CREATE TABLE users (
   user_id INT(11) NOT NULL AUTO_INCREMENT,
   first_name VARCHAR(255),
